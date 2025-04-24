@@ -45,5 +45,63 @@ A dual-pathology deep learning system for **simultaneous detection of Diabetic R
 
 ## 📁 Project Structure
 
-📦 eye-disease-predictor ├── app.py # Streamlit app interface ├── model.pth # Trained VGG-16 weights ├── utils.py # Preprocessing and helper functions ├── requirements.txt # Environment dependencies └── README.md # Project description and documentation
+📦 eye-disease-predictor 
+├── app.py # Streamlit app interface 
+├── model.pth # Trained VGG-16 weights 
+├── utils.py # Preprocessing and helper functions 
+├── requirements.txt # Environment dependencies 
+└── README.md # Project description and documentation
+
+
+---
+
+## 🧪 Datasets
+
+| Dataset           | Description                                     |
+|-------------------|-------------------------------------------------|
+| **APTOS 2019**     | 3,662 fundus images with DR severity labels     |
+| **MESSIDOR**       | 1,200 retinal images (DR focused)               |
+| **Cataract Set**   | 5,000 slit-lamp images (Cataract vs Normal)     |
+
+✔️ Preprocessed for class balance and image clarity.
+
+---
+
+## 📈 Training & Validation
+
+- **Split**: 70% Train / 15% Val / 15% Test  
+- **Loss**: Converges to ~0.2 around epoch 140  
+- **Framework**: Google Colab + PyTorch  
+- **Metrics**: Accuracy, Precision, Recall, F1-Score
+
+---
+
+## 🧩 Unique Contributions
+
+- ✅ Unified detection model reduces cost and complexity
+- 🌍 Deployable in low-resource healthcare settings
+- 🧠 Multi-task CNN enables shared learning for related diseases
+- 💻 Real-time diagnosis via browser-based interface
+- 🌐 Fully open-source for community collaboration
+
+---
+
+## 🚧 Limitations & Future Work
+
+### Limitations
+- Sensitive to poor-quality images, especially in low-light or blurred scans
+- May need retraining for generalizability across hospitals/devices
+- VGG-16 backbone is relatively heavy for mobile/edge deployment
+
+### Future Enhancements
+- Implement **attention modules** to boost cataract detection
+- Explore **Vision Transformers (ViT)** for robust feature learning
+- Add **Glaucoma** as a third pathology
+- Optimize via **model quantization** for edge deployment
+- Apply **federated learning** across global clinics for broader generalizability
+
+---
+
+
+
 
