@@ -40,18 +40,6 @@ A dual-pathology deep learning system for **simultaneous detection of Diabetic R
 
 ---
 
-## 📁 Project Structure
-
-📦 eye-disease-predictor 
-├── app.py # Streamlit app interface 
-├── model.pth # Trained VGG-16 weights 
-├── utils.py # Preprocessing and helper functions 
-├── requirements.txt # Environment dependencies 
-└── README.md # Project description and documentation
-
-
----
-
 ## 🧪 Datasets
 
 | Dataset           | Description                                     |
