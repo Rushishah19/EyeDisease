@@ -1,6 +1,3 @@
-# Save the README content to a Markdown file
-
-readme_content = """
 # 🧠 Eye Disease Detection using CNN | DR & Cataract
 
 A dual-pathology deep learning system for **simultaneous detection of Diabetic Retinopathy (DR)** and **Cataracts** from retinal fundus images, powered by **VGG-16** and deployed on **Hugging Face Spaces** with a **Streamlit** frontend.
